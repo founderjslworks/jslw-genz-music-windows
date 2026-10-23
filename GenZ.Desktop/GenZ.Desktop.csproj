@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- GEN-Z Music for Windows · Windows 7 SP1 to Windows 11 · .NET Framework 4.8 (WPF) -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <RootNamespace>GenZ</RootNamespace>
+    <AssemblyName>GEN-Z Music</AssemblyName>
+    <ApplicationIcon>Assets\genz.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.5.4</Version>
+    <FileVersion>1.5.4.0</FileVersion>
+    <Product>GEN-Z Music</Product>
+    <Company>JSL WORKS PVT LTD</Company>
+    <Authors>Partho Ghosh</Authors>
+    <Copyright>© 2026 JSL WORKS PVT LTD. All rights reserved.</Copyright>
+    <Description>GEN-Z Music – offline music player. Made in India with love.</Description>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSCore" Version="1.2.1.2" />
+    <PackageReference Include="TagLibSharp" Version="2.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- the same 42 themes as the Android app -->
+    <None Include="..\shared\skins\*.json" Link="skins\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <!-- licences -->
+    <None Include="..\shared\licenses\*.txt" Link="licenses\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <!-- terms of use and third-party notices (also shown by the installer) -->
+    <None Include="..\installer\EULA.txt" Link="legal\EULA.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\installer\THIRD-PARTY.txt" Link="legal\THIRD-PARTY-NOTICES.txt" CopyToOutputDirectory="PreserveNewest" />
+    <!-- Google Fonts shared with Android -->
+    <Resource Include="..\shared\fonts\*.ttf" Link="Assets\Fonts\%(Filename)%(Extension)" />
+    <SplashScreen Include="Assets\splash.png" />
+    <Resource Include="Assets\logo.png" />
+    <Resource Include="Assets\genz.png" />
+  </ItemGroup>
+</Project>
