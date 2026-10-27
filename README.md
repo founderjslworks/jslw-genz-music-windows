@@ -107,6 +107,8 @@ To publish a release, tag the version: `git tag v1.5.4 && git push --tags` – t
 | `tools/` | Demo library generator for screenshots (invented songs, art and lyrics) |
 | `docs/` | User guide (PDF) and screenshots |
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23683851.svg)](https://doi.org/10.5281/zenodo.23683851)
+
 ## Licence
 
 Proprietary – © 2026 JSL WORKS PVT LTD. All rights reserved. The source is published for viewing only; see [LICENSE](LICENSE).
