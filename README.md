@@ -7,6 +7,8 @@ The Windows edition of [GEN-Z Music for Android](https://github.com/founderjslwo
 
 ![GEN-Z Music for Windows](docs/screenshots/songs_covers.jpg)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23683851.svg)](https://doi.org/10.5281/zenodo.23683851)
+
 ## Download
 
 Get the latest **GEN-Z-Music-Setup-x.y.z.exe** from [Releases](../../releases) or from [www.jslworks.in/android-devlopment](https://www.jslworks.in/android-devlopment).
