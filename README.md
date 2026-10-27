@@ -9,6 +9,13 @@ The Windows edition of [GEN-Z Music for Android](https://github.com/founderjslwo
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23683851.svg)](https://doi.org/10.5281/zenodo.23683851)
 
+**Official Zenodo DOI:** [10.5281/zenodo.23683851](https://doi.org/10.5281/zenodo.23683851)  
+**Developer:** Partho Ghosh  
+**Organization:** JSL WORKS PVT LTD  
+**ORCID:** [0009-0000-0061-2451](https://orcid.org/0009-0000-0061-2451)
+
+**Project JSLW "GEN-Z" Music Player — Windows Edition v1.5.4** · by Partho Ghosh · © 2026 JSL WORKS PVT LTD
+
 ## Download
 
 Get the latest **GEN-Z-Music-Setup-x.y.z.exe** from [Releases](../../releases) or from [www.jslworks.in/android-devlopment](https://www.jslworks.in/android-devlopment).
