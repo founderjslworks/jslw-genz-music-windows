@@ -214,7 +214,7 @@ namespace GenZ
             return b;
         }
 
-        FrameworkElement Tile(string icon, string name, string tip, bool on, Action pick)
+        FrameworkElement SoundTile(string icon, string name, string tip, bool on, Action pick)
         {
             var sp = new StackPanel { Width = 92, Margin = new Thickness(0, 0, 8, 8), Cursor = Cursors.Hand, ToolTip = tip, Background = Brushes.Transparent };
             var t = IconTile(icon, 54, on); t.HorizontalAlignment = HorizontalAlignment.Center;
@@ -263,7 +263,7 @@ namespace GenZ
             foreach (var p in Theater.Profiles)
             {
                 var prof = p;
-                cards.Children.Add(Tile(p.Icon, p.Name, p.Blurb, p.Id == c.TheaterProfile, () =>
+                cards.Children.Add(SoundTile(p.Icon, p.Name, p.Blurb, p.Id == c.TheaterProfile, () =>
                 {
                     c.TheaterProfile = prof.Id; c.TheaterOn = true;
                     Settings.Save(); Player.ApplyTheater(); ShowToast("JSLW Sound Engine · " + prof.Name); BuildTheater();
@@ -302,7 +302,7 @@ namespace GenZ
             foreach (var r in Theater.Rooms)
             {
                 var room = r;
-                rooms.Children.Add(Tile(r.Icon, r.Name, r.Id == "auto" ? "Chosen by the sound profile" : null, r.Id == c.TheaterRoom, () =>
+                rooms.Children.Add(SoundTile(r.Icon, r.Name, r.Id == "auto" ? "Chosen by the sound profile" : null, r.Id == c.TheaterRoom, () =>
                 {
                     c.TheaterRoom = room.Id;
                     if (room.Amount >= 0) c.TheaterRoomAmount = room.Amount;
