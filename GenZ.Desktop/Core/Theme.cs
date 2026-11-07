@@ -10,7 +10,7 @@ namespace GenZ.Core
     /// <summary>A GEN-Z theme – the very same JSON files the Android app uses.</summary>
     public class Theme
     {
-        public string Id, Name, Author, Font, DisplayFont, LcdFont, ProgressStyle, CoverEffect, NpControls, FlowStyle, Json;
+        public string Id, Name, Author, Font, DisplayFont, LcdFont, ProgressStyle, CoverEffect, NpControls, FlowStyle, RawJson;
         public bool UserTheme;
         public bool Dark;
         public double CornerRadius;
@@ -47,7 +47,7 @@ namespace GenZ.Core
                 NpControls = d.Str("npControls", "standard"), FlowStyle = d.Str("flowStyle", "classic"), CornerRadius = d.Num("cornerRadius", 14),
             };
             t.DisplayFont = d.Str("displayFont", t.Font);
-            t.Json = json;
+            t.RawJson = json;
             var cols = d.Obj("colors");
             if (cols != null) foreach (var kv in cols) if (kv.Value != null) t.Colors[kv.Key] = ParseColor(kv.Value.ToString());
             if (d.TryGetValue("progressColors", out var pc) && pc is System.Collections.IEnumerable list && !(pc is string))

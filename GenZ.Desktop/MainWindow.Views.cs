@@ -445,7 +445,7 @@ namespace GenZ
                 if (System.IO.File.Exists(d.FileName)) System.IO.File.Delete(d.FileName);
                 using (var z = System.IO.Compression.ZipFile.Open(d.FileName, System.IO.Compression.ZipArchiveMode.Create))
                 using (var w = new System.IO.StreamWriter(z.CreateEntry("theme.json").Open()))
-                    w.Write(t.Json ?? "{}");
+                    w.Write(t.RawJson ?? "{}");
                 ShowToast("Saved “" + t.Name + "” – send it to a friend");
                 ShowInFolder(d.FileName);
             }
