@@ -20,3 +20,12 @@ Google Fonts – Inter, Lora, VT323, Barlow Condensed, Orbitron, Poppins, Montse
   © their respective authors – SIL Open Font License 1.1 (see FONTS.txt)
 
 No GPL / LGPL code is included.
+
+------------------------------------------------------------
+GEN-Z Music for Windows also includes these open-source audio decoders, used to play .opus and .ogg files:
+
+Concentus and Concentus.Oggfile (C# port of the Opus codec) – Copyright (c) Xiph.Org Foundation, Skype Limited,
+Octasic, Jean-Marc Valin, Timothy B. Terriberry, CSIRO, Gregory Maxwell, Mark Borgerding, Erik de Castro Lopo,
+Logan Stromberg. Licensed under the BSD 3-Clause licence.
+
+NVorbis (Ogg Vorbis decoder) – Copyright (c) Andrew Ward. Licensed under the MIT licence.
