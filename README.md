@@ -29,6 +29,21 @@ A portable zip is also available; it runs from any folder without installing.
 
 📘 **User guide:** [GEN-Z Music for Windows – The Complete User Guide (PDF)](docs/GEN-Z-Music-for-Windows-User-Guide.pdf)
 
+## What's new in 1.6.0
+
+- **Sound** (was Equalizer): the GEN-Z Home Theater is now the **JSLW Sound Engine**, the same as on Android
+  - New Night profile; Tune for Auto-detect, Headphones, Speakers or **Soundbar mode** (Auto-detect reads the Windows output device)
+  - **Room presets**: Bedroom, Living room, Studio, Home theatre, Club, Concert hall, Stadium
+  - **29 equalizer presets** sorted into Popular, Indian, Chill, Tone and Situations (Bollywood, Bhangra, Indian Classical, Sufi & Ghazal, Devotional, Lo-fi, Podcast, Gaming, Car, Small Speakers…)
+  - Icon tiles and a compact Fine tuning card that folds to a one-line summary
+  - **Playing on** strip (Sound page and Now Playing): the soundbar / Bluetooth device's name, its battery when Windows reports it, and your laptop's battery
+- **Album Flow styles**: 3D carousel ring, card stack, wave, fan of cards, record crate and depth tunnel, plus classic. Each theme suggests one; switch with the Style button. The centre cover pops in and the playing album breathes with the music
+- **Hidden folders**: call recordings and WhatsApp Audio stay out of the library; right-click a folder to hide it
+- **Delete from PC…** moves songs to the Recycle Bin
+- **Sidebar**: choose which entries it shows (Settings)
+- **Themes**: share a theme as a .genzskin.zip (opens in GEN-Z for Android too), import themes shared from Android, mini previews on theme cards
+- .opus and .ogg files are listed and play where Windows has the decoder (Windows 10 / 11 with the Web Media Extensions)
+
 ## System requirements
 
 | | Minimum (older PCs) | Recommended |
