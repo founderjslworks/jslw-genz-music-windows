@@ -3,7 +3,7 @@
 **Offline music player for Windows 7, 8, 8.1, 10 and 11**, by **JSL WORKS PVT LTD**.
 Designed & developed by Partho Ghosh · Made in India with ♥ · [www.jslworks.in](https://www.jslworks.in/)
 
-The Windows edition of [GEN-Z Music for Android](https://github.com/founderjslworks/jslw-genz-music-player): the same 42 themes, fonts and animations, built natively with WPF.
+The Windows edition of [GEN-Z Music for Android](https://github.com/founderjslworks/jslw-genz-music-player): the same 44 themes, fonts and animations, built natively with WPF.
 
 ![GEN-Z Music for Windows](docs/screenshots/songs_covers.jpg)
 
@@ -69,7 +69,7 @@ On older PCs GEN-Z switches itself to **Light mode** (Settings & About › Perfo
 - **Tag editor:** title, artist, album, album artist, genre, year, track, lyrics, high-quality cover
 - **Sound:** GEN-Z Home Theater (Movie, Music, Game, Voice, Custom – surround width, room, dialogue, leveller) and a 10-band equalizer with 12 presets and automatic headroom
 - **Optional online look-ups:** high-quality cover art, synced lyrics and track info (iTunes Search, MusicBrainz / Cover Art Archive, LRCLIB) – off by default
-- **42 themes** shared with the Android app, each with its own fonts and progress bar
+- **44 themes** shared with the Android app, each with its own fonts and progress bar
 - **Android motion set** at your monitor's refresh rate (60–240 Hz): screen transitions, 13 list scroll animations, like celebrations (particle explosion, 3D heart frame, glitter heart), sidebar space effects, live volume sliders with particles
 - **Mini player:** picture-in-picture, always on top, animated cover
 - **Desktop integration:** media keys, taskbar buttons and progress, "Open with GEN-Z Music", drag & drop from Explorer
